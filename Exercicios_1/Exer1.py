@@ -2,8 +2,8 @@ from sympy import symbols, Eq, solve
 
 x = symbols('x')
 
-eq = Eq(x**4 + 2*x**2 + 1, 0)
+e = Eq(x**4 + 2*x**2 +1 , 0)
 
-sol = solve(eq, x)
+print(solve(e, x))
 
-print(sol)
+#As raízes são i e -i e são raízes duplas

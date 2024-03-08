@@ -1,8 +1,5 @@
-y = -1 + 1j
+from sympy import symbols, Eq, solve
 
-def eq(x):
-  resultado = x**2 + 2*x + 2
-  print(resultado)
-  return
+x= symbols ('x')
 
-eq(y)
+print(solve(Eq(x**2+2*x+2,0),x))
